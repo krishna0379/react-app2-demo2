@@ -1,7 +1,11 @@
+import { Alert } from "react-bootstrap";
 export function Member1() {
   return (
-    <div>
-      <h1>Member 1 Registeration</h1>
+    <div className="w-75">
+      <div className="alert alert-primary">
+      <h1>Registeration Module </h1>
+      </div>
+
       <div>
         <div className="mb-2">
           <input
