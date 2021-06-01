@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Alert, Button } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 className="bg-primary text-light p-2 m-1 rounded">React Bootstrap</h1>
+
+      <input type="button" className="btn btn-secondary m-2" value="Basic Button" />
+      <Button variant="secondary">React Bootstrap Button</Button>
+
+      <div className="alert alert-primary">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+        officiis.
+      </div>
+
+      <Alert variant="primary">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </Alert>
     </div>
   );
 }
